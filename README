@@ -4,9 +4,10 @@ Current (4/1001)
 
 Algorithms
 
-- Bhaskara
-- Bubble Sort
-- Merge Sort
-- Quick Sort
+1 Bhaskara (Math)
+2 Bubble Sort (Sort)
+3 Merge Sort (Sort)
+4 Quick Sort (Sort)
+5 Cesar (Crypto)
 
 Inspired in https://github.com/karlisson/1001

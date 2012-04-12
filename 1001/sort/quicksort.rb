@@ -16,10 +16,12 @@ Complexidade:
     O(n log(n)) - Melhor caso e médio caso.
     O(n²) - Pior caso.
 Dificuldade:
-    facil
+    Fácil
 Referências: (opcional)
     http://en.wikipedia.org/wiki/Quicksort
-    
+Licenca:
+	Free
+
 =end
 
 def quicksort(vetor)

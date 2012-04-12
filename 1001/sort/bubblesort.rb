@@ -13,10 +13,10 @@ Descrição:
 Complexidade:  
     O(n²)
 Dificuldade:
-    facil
+    Fácil
 Referências:
     http://en.wikipedia.org/wiki/Bubble_sort
-
+Licenca:
 =end
 
 def bubblesort(vetor)

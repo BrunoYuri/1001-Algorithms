@@ -16,7 +16,8 @@ Dificuldade:
 	Fácil
 Referências:
 	http://en.wikipedia.org/wiki/Merge_sort
-	
+Licenca:
+
 =end
 
 def mergesort(vetor)
