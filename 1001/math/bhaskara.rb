@@ -4,7 +4,7 @@ Bhaskara
 Autor:
     Bhaskara Akaria [1]
 Colaborador:
-    Pedro Henrique Pereira de Souza
+    Pedro Henrique Pereira de Souza (predoff@gmail.com)
 Tipo:
     math
 Descrição:

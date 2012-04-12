@@ -3,6 +3,8 @@
 Bubblesort
 Autor:
     ?
+Colaborador:
+	Pedro Henrique Pereira de Souza (predoff@gmail.com)
 Tipo:
     Sorting
 Descrição:
