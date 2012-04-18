@@ -1,23 +1,23 @@
 =begin
 
-Mergesort
-Autor:
+Merge Sort
+Author:
 	John von Neumann, em 1945
-Colaborador:
+Collaborator:
 	Pedro Henrique Pereira de Souza (predoff@gmail.com)
-Tipo:
+Type:
 	Sorting
-Descrição:
-	O algoritmo ordena um vetor dividindo-o pela metade e, depois de processar
+Description:
+	(PT) O algoritmo ordena um vetor dividindo-o pela metade e, depois de processar
 	cada metade recursivamente, intercala as metades ordenadas.
-Complexidade:
+Complexity: 
 	O (n log n)
-Dificuldade:
-	Fácil
-Referências:
+Difficulty level:
+    Easy
+References:
 	http://en.wikipedia.org/wiki/Merge_sort
-Licenca:
-
+License: 
+	
 =end
 
 def mergesort(vetor)

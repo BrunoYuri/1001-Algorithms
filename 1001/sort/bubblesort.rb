@@ -1,22 +1,23 @@
 =begin
 
-Bubblesort
-Autor:
+Bubble Sort
+Author:
     ?
-Colaborador:
+Collaborator:
 	Pedro Henrique Pereira de Souza (predoff@gmail.com)
-Tipo:
+Type:
     Sorting
-Descrição:
-    Varre o vetor comparando cada um dos pares de números
+Description:
+    (PT)  Varre o vetor comparando cada um dos pares de números
     possíveis e trocando suas posições no vetor se necessário
-Complexidade:  
+Complexity: 
     O(n²)
-Dificuldade:
-    Fácil
-Referências:
+Difficulty level:
+    Easy
+References:
     http://en.wikipedia.org/wiki/Bubble_sort
-Licenca:
+License: 
+	
 =end
 
 def bubblesort(vetor)

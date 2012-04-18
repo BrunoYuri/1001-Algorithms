@@ -1,50 +1,43 @@
 =begin
 
-Cesar Cipher (Cifra de César)
-Autor:
+Cesar Cipher
+Autohr:
     César
-Colaborador:
+Collaborator:
     Pedro Henrique Pereira de Souza (predoff@gmail.com)
-Tipo:
+Type:
     Crypto
-Descrição:
-    Este algoritmo implementa a Cifra de César
-Complexidade:  
+Description:
+    (PT) Este algoritmo implementa a Cifra de César
+Complexity:  
     ?
-Dificuldade:
-    Fácil
-Referências:
+Difficulty level:
+    Easy
+References:
     http://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar
-Licença:
-    Free
+License:
+    
     
 =end
 
 class Cesar  
-	def crypt(text = "", key= 0)
-		count = 0
-		encoded = ""
-
-		while count < text.size		
-			encoded << (text[count]+key).chr
-			count += 1
-		end
+	def self.crypt(text, key)
+		alpha = ("a".."z").to_a
+	
+		key.times { alpha.push(alpha.shift) }
+		text = text.downcase.tr("a-z", alpha.join)
 		
-		return encoded
+		return text
 	end
-	def decrypt(text = "", key= 0)
-		count = 0
-		encoded = ""
-
-		while count < text.size		
-			encoded << (text[count]-key).chr
-			count += 1
-		end
+	def self.decrypt(text, key)
+		alpha = ("a".."z").to_a
+	
+		key.times { alpha.push(alpha.shift) }
+		text = text.downcase.tr(alpha.join, "a-z")
 		
-		return encoded
+		return text
 	end
 end
 
-c = Cesar.new
-puts c.crypt("seila", 5)
-puts c.decrypt("xjnqf", 5)
+puts Cesar.crypt("SEILA", 5)
+puts Cesar.decrypt("xjnqf", 5)

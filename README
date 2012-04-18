@@ -1,6 +1,6 @@
 The objctive of this project is implement 1001 Ruby Algorithms.
 
-Current (5/1001)
+Current (6/1001)
 
 Algorithms
 
@@ -8,7 +8,8 @@ Algorithms
 2 Bubble Sort (sort/bubblesort.rb)
 3 Merge Sort (sort/mergesort.rb)
 4 Quick Sort (sort/quicksort.rb)
-5 Cesar (crypto/cesar.rb)
+5 Cesar Cipher (crypto/cesar.rb)
 6 Temperature Conversion (misc/temperature.rb)
+7 Vigenère Cipher (crypto/vigenere.rb)
 
 Inspired in https://github.com/karlisson/1001

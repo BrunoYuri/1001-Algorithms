@@ -1,22 +1,22 @@
 =begin
 
 Temperature Conversion
-Autor:
-    
-Colaborador:
-    Pedro Henrique Pereira de Souza (predoff@gmail.com)
-Tipo:
-    Misc
-Descrição:
-	Conversão de temperatura (Celsius, Fahrenheit, Kelvin)
-Complexidade:  
+Author:
     ?
-Dificuldade:
-    Fácil
-Referências:
+Collaborator:
+    Pedro Henrique Pereira de Souza (predoff@gmail.com)
+Type:
+    Misc
+Description:
+	(PT)  Conversão de temperatura (Celsius, Fahrenheit, Kelvin)
+Complexity:   
+    ?
+Difficulty level:
+    Easy
+References:
     http://www.mathsisfun.com/temperature-conversion.html
-Licença:
-    Free
+License:
+    
     
 =end
 

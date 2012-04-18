@@ -3,19 +3,20 @@
 Bhaskara
 Autor:
     Bhaskara Akaria [1]
-Colaborador:
+Collaborator:
     Pedro Henrique Pereira de Souza (predoff@gmail.com)
-Tipo:
-    math
-Descrição:
-    Calcula as raízes de uma equação de segundo grau
-Complexidade:  
+Type:
+    Math
+Description:
+    (PT) Calcula as raízes de uma equação de segundo grau
+Complexity: 
     O(1)
-DIficuldade:
-    fácil
-Referências:
+Difficulty level:
+    Easy
+References:
     [1] http://pt.wikipedia.org/wiki/Bhaskara_Akaria
-    
+License:
+	
 =end
 
 def bhaskara(a, b, c)

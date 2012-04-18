@@ -1,26 +1,26 @@
 =begin
 
-Quicksort
-Autor:
+Quick Sort
+Author:
     C.A.R. Hoare
-Colaborador:
+Collaborator:
    Pedro Henrique Pereira de Souza (predoff@gmail.com)
-Tipo:
+Type:
  	Sorting
-Descrição:
-    Quicksort é um algorítmo de ordenação de vetores cuja estratégia é
+Description:
+    (PT) Quicksort é um algorítmo de ordenação de vetores cuja estratégia é
     dividir para conquistar. Basicamente o algorítmo organiza os elementos
     dos vetores de forma que os menores estejam antes dos maiores.
     Esse passo é feito recursivamente até que a lista completa esteja ordenada.
-Complexidade:  
+Complexity: 
     O(n log(n)) - Melhor caso e médio caso.
     O(n²) - Pior caso.
-Dificuldade:
-    Fácil
-Referências: (opcional)
+Difficulty level:
+    Easy
+References:
     http://en.wikipedia.org/wiki/Quicksort
-Licenca:
-	Free
+License: 
+	
 
 =end
 
