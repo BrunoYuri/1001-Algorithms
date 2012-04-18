@@ -8,9 +8,11 @@ Collaborator:
 Type:
     Search
 Description:
-    O que este algoritmo faz? Serve pra que? Tente explicar
-    da melhor forma possivel, ja que este projeto tem como
-    publico-alvo os iniciantes.
+    In computer science, a binary search or half-interval search algorithm finds the 
+    position of a specified value (the input "key") within a sorted array.[1][2] 
+    In each step, the algorithm compares the input key value with the key value of the 
+    middle element of the array. If the keys match, then a matching element has been 
+    found so its index, or position, is returned. 
 Complexity:  
     ?
 Difficulty level:
@@ -23,20 +25,27 @@ License: (optional)
 
 def binary_search(array, value)
 	if array.size == 0
-		return false
+		return nil
 	end
 	
-	med = array.size/2
+	greater = array.size - 1
+	lesser = 0
+	
+	while lesser < greater
+		mid = lesser + ((greater - lesser) / 2);
 
-	if value < array[med]
-		return binary_search(array.shift(med), value)
-	elsif value > array[med]
-		array.shift(med)
-		return binary_search(array, value)
+		if value < array[mid]
+			greater = mid
+		elsif value > array[mid]
+			lesser = mid + 1
+		else
+			return mid
+		end
 	end
 	
-	return med
+	return -1
 end
 
 array = [0, 1, 2, 3, 4, 5, 6, 14, 18, 19]
+
 puts binary_search(array, 14)
