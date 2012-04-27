@@ -1,0 +1,87 @@
+/*MAIN STRUCTURE*/
+html, body, #main, #aside{
+	height: 100%;
+	min-height: 600px;
+}
+body{
+	width: 100%;
+	min-width: 1000px;
+}
+
+#main, #aside{
+	float: left;
+}
+
+#aside{
+	width: 65%;
+	min-width: 650px;	
+}
+
+#main{
+	width: 35%;
+	min-width: 350px;
+}
+
+header{
+	height: 12%;
+	min-height: 72px;
+}
+
+footer{
+	height: 8%;
+	min-height:48px;
+}
+#algorithms{
+	height: 80%;
+	min-height: 480px;
+	overflow: auto;
+}
+
+/*Padding*/
+header, footer, #algorithms, #code{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*Text*/
+body{
+	font-family: Helvetica;
+}
+h1{
+	padding-top: 10px;
+	padding-bottom: 4px;
+	color: #800080;
+	font-size: 28px;
+	
+}
+footer p{
+	padding-top: 16px;
+	color: #333;
+	font-size: 13px;
+}
+#aside
+{
+	color: #00FF00;
+}
+
+/*COLOR*/
+#aside
+{	
+	background:#000;
+}
+
+#list{
+	padding: 10px 10px 6px 10px;
+	border-radius: 4px;
+	border: solid 1px;
+	min-height: 460px;
+	background: #F5D0DF;
+}
+
+#list li{
+	padding-bottom: 4px;
+}
+
+#main{
+	background: #F7F0F3;
+}
