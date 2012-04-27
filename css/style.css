@@ -28,19 +28,26 @@ header{
 }
 
 footer{
-	height: 8%;
-	min-height:48px;
+	height: 6%;
+	min-height:36px;
 }
 #algorithms{
-	height: 80%;
-	min-height: 480px;
+	height: 82%;
+	min-height: 492px;
 	overflow: auto;
+	
+	border-top: solid 1px;
+	border-bottom: solid 1px;
 }
 
 /*Padding*/
-header, footer, #algorithms, #code{
+header, footer, #code{
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+#code{
+	padding: 10px;
 }
 
 /*Text*/
@@ -55,7 +62,7 @@ h1{
 	
 }
 footer p{
-	padding-top: 16px;
+	padding-top: 8px;
 	color: #333;
 	font-size: 13px;
 }
@@ -70,12 +77,12 @@ footer p{
 	background:#000;
 }
 
+#algorithms{
+	background: #F5D0DF;
+}
 #list{
 	padding: 10px 10px 6px 10px;
-	border-radius: 4px;
-	border: solid 1px;
-	min-height: 460px;
-	background: #F5D0DF;
+	min-height:476px;
 }
 
 #list li{
