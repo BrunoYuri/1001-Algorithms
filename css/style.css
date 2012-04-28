@@ -40,6 +40,9 @@ footer{
 	border-bottom: solid 1px;
 }
 
+#aside{
+		overflow: auto;
+}
 /*Padding*/
 header, footer, #code{
 	padding-left: 10px;

@@ -1,10 +1,16 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>Algorithms</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/reset.css" type="css/text" media="" />
-		<link rel="stylesheet" href="css/style.css" type="css/text" media="" />
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript">
+		function loadUrl(url) {
+			$("#code").load(url);
+		}
+		</script>
 	</head>
 	<body>
 		<div id="main">
@@ -14,16 +20,16 @@
 			</header>
 			<section id="algorithms">
 				<ul id="list">
-					<li>0001 <a href="https://raw.github.com/Predoff/Algorithms/master/1001/math/bhaskara.rb">Bhaskara</a></li>
-					<li>0002 <a href="https://raw.github.com/Predoff/Algorithms/master/1001/sort/bubblesort.rb">Bubble Sort</a></li>
-					<li>0003 <a href="https://raw.github.com/Predoff/Algorithms/master/1001/sort/mergesort.rb">Merge Sort</a></li>
-					<li>0004 <a href="https://raw.github.com/Predoff/Algorithms/master/1001/sort/quicksort.rb">Quick Sort</a></li>
-					<li>0005 <a href="https://raw.github.com/Predoff/Algorithms/master/1001/crypto/cesar.rb">Cesar Cipher</a></li>
-					<li>0006 <a href="https://raw.github.com/Predoff/Algorithms/master/1001/misc/temperature.rb">Temperature Conversion</a></li>
-					<li>0007 <a href="https://raw.github.com/Predoff/Algorithms/master/1001/crypto/vigenere.rb">Vigenere Cipher</a></li>
-					<li>0008 <a href="https://raw.github.com/Predoff/Algorithms/master/1001/search/binary_search.rb">Binary Search</a></li>
-					<li>0009 <a href="https://raw.github.com/Predoff/Algorithms/master/1001/search/linear_search.rb">Linear Search</a></li>
-					<li>0010 <a href="https://raw.github.com/Predoff/Algorithms/master/1001/math/factorial.rb">Factorial</a></li>
+					<li>0001 <a onclick="loadUrl('1001/math/bhaskara.rb')" href="#">Bhaskara</a></li>
+					<li>0002 <a onclick="loadUrl('1001/sort/bubblesort.rb')" href="#">Bubble Sort</a></li>
+					<li>0003 <a onclick="loadUrl('1001/sort/mergesort.rb')" href="#">Merge Sort</a></li>
+					<li>0004 <a onclick="loadUrl('1001/sort/quicksort.rb')" href="#">Quick Sort</a></li>
+					<li>0005 <a onclick="loadUrl('1001/crypto/cesar.rb')" href="#">Cesar Cipher</a></li>
+					<li>0006 <a onclick="loadUrl('1001/misc/temperature.rb')" href="#">Temperature Conversion</a></li>
+					<li>0007 <a onclick="loadUrl('1001/crypto/vigenere.rb')" href="#">Vigenere Cipher</a></li>
+					<li>0008 <a onclick="loadUrl('1001/search/binary_search.rb')" href="#">Binary Search</a></li>
+					<li>0009 <a onclick="loadUrl('1001/search/linear_search.rb')" href="#">Linear Search</a></li>
+					<li>0010 <a onclick="loadUrl('1001/math/factorial.rb')" href="#">Factorial</a></li>
 				</ul>
 			</section>
 			<footer>
@@ -31,9 +37,9 @@
 			</footer>
 		</div>
 		<div id="aside">
-			<section id="code">
-				Select Algorithm in the left to show..
-			</section>
+			<pre id="code">
+			Select Algorithm in the left to show..
+			</pre>
 		<div>
 	</body>
 <html>
