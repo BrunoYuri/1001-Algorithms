@@ -49,9 +49,11 @@ header, footer, #code{
 	padding-right: 10px;
 }
 
-#code{
+#code, .source{
 	padding: 10px;
 }
+
+
 
 /*Text*/
 body{
