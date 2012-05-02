@@ -23,8 +23,29 @@ body{
 }
 
 header{
+	padding-left: 10px;
 	height: 12%;
 	min-height: 72px;
+}
+
+header h1{
+	float: left;
+	width: 150px;
+	width: 40%;
+	
+}
+header .social{
+	float: left;
+	width: 60%;
+	padding-top: 12px;
+}
+
+header iframe{
+	float: right;
+}
+
+header h3{
+	clear: left;
 }
 
 footer{
@@ -44,7 +65,7 @@ footer{
 	overflow: auto;
 }
 /*Padding*/
-header, footer, #code{
+footer, #code{
 	padding-left: 10px;
 	padding-right: 10px;
 }
