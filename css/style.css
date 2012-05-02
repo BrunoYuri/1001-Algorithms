@@ -35,13 +35,13 @@ footer{
 	height: 82%;
 	min-height: 492px;
 	overflow: auto;
-	
+	border-right: solid 1px;
 	border-top: solid 1px;
 	border-bottom: solid 1px;
 }
 
 #aside{
-		overflow: auto;
+	overflow: auto;
 }
 /*Padding*/
 header, footer, #code{
@@ -69,16 +69,10 @@ footer p{
 	color: #333;
 	font-size: 13px;
 }
-#aside
-{
-	color: #00FF00;
-}
+
 
 /*COLOR*/
-#aside
-{	
-	background:#000;
-}
+
 
 #algorithms{
 	background: #F5D0DF;
@@ -92,6 +86,6 @@ footer p{
 	padding-bottom: 4px;
 }
 
-#main{
+#main, #aside{
 	background: #F7F0F3;
 }

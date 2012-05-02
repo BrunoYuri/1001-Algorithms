@@ -5,10 +5,34 @@
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+		
+
 		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/dojo.js"></script>
+		<script type="text/javascript" src="js/jquery.snippet.js"></script>
+		<script type="text/javascript" src="js/sh_ruby.js"></script>
+		<link rel="stylesheet" href="css/jquery.snippet.css" type="text/css" media="all" />
 		<script type="text/javascript">
+		$(document).ready(function(){
+		  $("pre.ruby").snippet("ruby",{style:"neon"});
+		})
 		function loadUrl(url) {
+			
+			var node = dojo.byId("aside");
+			
+			//preciso deletar o elemento #code e cria-lo novamente.
+			while (node.hasChildNodes()) {
+    			node.removeChild(node.lastChild);
+			}
+			
+			 var aside = document.getElementById('aside');
+			 aside.innerHTML = "<pre id='code' class='ruby'> </pre>";
+  	//		 var olddiv = document.getElementById(divNum);
+	//		 d.removeChild(olddiv);
+			 
 			$("#code").load(url);
+	    	$("pre.ruby").snippet("ruby",{style:"neon"});
+			
 		}
 		</script>
 	</head>
@@ -33,12 +57,82 @@
 				</ul>
 			</section>
 			<footer>
-				<p>Original code and Website by <a href="http://predoff.github.com">Predoff</a><p>
+				<p>Original code and Website by <a href="http://predoff.github.com/about.html">Predoff</a><p>
 			</footer>
 		</div>
 		<div id="aside">
-			<pre id="code">Select Algorithm in the left to show..
+			<pre id="code" class="ruby">=begin
+
+Merge Sort
+Author:
+	John von Neumann, em 1945
+Collaborator:
+	Pedro Henrique Pereira de Souza (predoff@gmail.com)
+Type:
+	Sorting
+Description:
+	(PT) O algoritmo ordena um vetor dividindo-o pela metade e, depois de processar
+	cada metade recursivamente, intercala as metades ordenadas.
+Complexity: 
+	O (n log n)
+Difficulty level:
+    Easy
+References:
+	http://en.wikipedia.org/wiki/Merge_sort
+License: 
+	
+=end
+
+def mergesort(vetor)
+	# Se o tamanho do vetor for menor que 1 ou igual, considere ordenado e retorne-o
+	if vetor.length <= 1
+		return vetor
+	end
+	
+	metade = vetor.length/2
+	left, right = [], []
+	
+	for i in 0..metade-1
+		left << vetor[i]
+	end
+	
+	for i in metade..vetor.length-1
+		right << vetor[i]
+	end
+	
+	left = mergesort(left)
+	right = mergesort(right)
+	
+	return merge(left, right)
+end
+
+def merge(left, right)
+	result = []
+	
+	while left.length > 0 || right.length > 0
+		if left.length > 0 && right.length > 0
+			if left[0] <= right[0]
+				result << left[0]
+				left.delete_at(0)
+			else 
+				result << right[0]
+				right.delete_at(0)
+			end
+		elsif left.length > 0
+			result << left[0]
+			left.delete_at(0)
+		elsif right.length
+			result << right[0]
+			right.delete_at(0)
+		end
+	end
+	
+	return result
+end
+
+puts mergesort([6, -7, 33, 12])
+puts mergesort([2,8,-2,1,45,37,-463,24,50,80,4,3,7,4,55])
 			</pre>
-		<div>
+		</div>
 	</body>
 <html>
