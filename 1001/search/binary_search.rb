@@ -2,24 +2,15 @@
 
 Binary Search
 Author:
-    ?
+  ?
 Collaborator:
-    Pedro Henrique Pereira de Souza (predoff@gmail.com)
+  Pedro Henrique Pereira de Souza (predoff@gmail.com)
 Type:
-    Search
-Description:
-    In computer science, a binary search or half-interval search algorithm finds the 
-    position of a specified value (the input "key") within a sorted array.[1][2] 
-    In each step, the algorithm compares the input key value with the key value of the 
-    middle element of the array. If the keys match, then a matching element has been 
-    found so its index, or position, is returned. 
-Complexity:  
-    ?
+  Search
 Difficulty level:
-    Easy
+  Easy
 References: (optional)
-    http://en.wikipedia.org/wiki/Binary_search_algorithm
-License: (optional)
+  http://en.wikipedia.org/wiki/Binary_search_algorithm
     
 =end
 

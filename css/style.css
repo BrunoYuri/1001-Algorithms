@@ -72,6 +72,7 @@ footer, #code{
 
 #code, .source{
 	padding: 10px;
+	font-family: monospace;
 }
 
 
@@ -87,6 +88,10 @@ h1{
 	font-size: 28px;
 	
 }
+h1 a{
+	text-decoration: none;
+}
+
 footer p{
 	padding-top: 8px;
 	color: #333;

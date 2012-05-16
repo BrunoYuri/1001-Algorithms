@@ -2,23 +2,15 @@
 
 Vigenère Cipher
 Author:
-  
+  ?  
 Collaborator:
-	Pedro H. P. Souza - predoff@gmail.com
+  Pedro H. P. Souza - predoff@gmail.com
 Type:
-	Crypto
-Description:
-	(PT) Este algoritmo implementa o metodo de criptografia "Cifra de Vigenère"
-	"A cifra de Vigenère consiste no uso de várias cifras de César em sequência,
-	com diferentes valores de deslocamento ditados por uma "palavra-chave"" - Wiki
-Complexity: 
-	?
+  Crypto
 Difficulty level:
-    Easy
+  Easy
 References:
-	http://pt.wikipedia.org/wiki/Cifra_de_Vigen%C3%A8re
-License:
-	
+  http://pt.wikipedia.org/wiki/Cifra_de_Vigen%C3%A8re
 
 =end
 

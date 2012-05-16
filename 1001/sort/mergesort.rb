@@ -2,21 +2,15 @@
 
 Merge Sort
 Author:
-	John von Neumann, em 1945
+  John von Neumann, em 1945
 Collaborator:
-	Pedro Henrique Pereira de Souza (predoff@gmail.com)
+  Pedro Henrique Pereira de Souza (predoff@gmail.com)
 Type:
-	Sorting
-Description:
-	(PT) O algoritmo ordena um vetor dividindo-o pela metade e, depois de processar
-	cada metade recursivamente, intercala as metades ordenadas.
-Complexity: 
-	O (n log n)
+  Sorting
 Difficulty level:
-    Easy
+  Easy
 References:
-	http://en.wikipedia.org/wiki/Merge_sort
-License: 
+  http://en.wikipedia.org/wiki/Merge_sort
 	
 =end
 

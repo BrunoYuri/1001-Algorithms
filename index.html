@@ -3,41 +3,36 @@
 	<head>
 		<title>Algorithms</title>
 		<meta charset="utf-8"/>
-		<link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
-		<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-		
-
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/dojo.js"></script>
 		<script type="text/javascript" src="js/jquery.snippet.js"></script>
 		<script type="text/javascript" src="js/sh_ruby.js"></script>
+		<link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 		<link rel="stylesheet" href="css/jquery.snippet.css" type="text/css" media="all" />
+		
 		<script type="text/javascript">
-		function loadUrl(url) {
-			
+		function loadUrl(url) {	
 			var node = dojo.byId("source");
-			
+
 			//preciso deletar o elemento #code e cria-lo novamente.
 			while (node.hasChildNodes()) {
     			node.removeChild(node.lastChild);
 			}
 			
-			 var aside = document.getElementById('source');
-			 aside.innerHTML = "<pre id='code' class='ruby'> </pre>";
-  	//		 var olddiv = document.getElementById(divNum);
-	//		 d.removeChild(olddiv);
+			var aside = document.getElementById('source');
+			aside.innerHTML = "<pre id='code' class='ruby'> </pre>";
 			 
 			$("#code").load(url, function() {
    			  $("pre.ruby").snippet("ruby",{style:"neon"});
-			});
-			
+			});	
 		}
 		</script>
 	</head>
 	<body>
 		<div id="main">
 			<header>
-				<h1>Algorithms</h1>
+				<h1><a href="http://predoff.github.com/Algorithms">Algorithms</a></h1>
 				<div class="social">
 					<iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=Predoff&repo=Algorithms&type=watch&count=true"
   allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
@@ -59,7 +54,7 @@
 				</ul>
 			</section>
 			<footer>
-				<p>Original code and Website by <a href="http://predoff.github.com/about.html">Predoff</a><p>
+				<p>Original code and Website by <a href="http://predoff.github.com/about.html">Pedro H. P. Souza</a>.<p>
 			</footer>
 		</div>
 		<div id="aside">
