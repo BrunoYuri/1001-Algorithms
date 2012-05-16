@@ -2,21 +2,15 @@
 
 Bubble Sort
 Author:
-    ?
+  ?
 Collaborator:
-	Pedro Henrique Pereira de Souza (predoff@gmail.com)
+  Pedro Henrique Pereira de Souza (predoff@gmail.com)
 Type:
-    Sorting
-Description:
-    (PT)  Varre o vetor comparando cada um dos pares de números
-    possíveis e trocando suas posições no vetor se necessário
-Complexity: 
-    O(n²)
+  Sorting
 Difficulty level:
-    Easy
+  Easy
 References:
-    http://en.wikipedia.org/wiki/Bubble_sort
-License: 
+  http://en.wikipedia.org/wiki/Bubble_sort
 	
 =end
 

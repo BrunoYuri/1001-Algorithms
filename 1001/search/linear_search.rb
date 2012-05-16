@@ -2,21 +2,15 @@
 
 Linear Search
 Author:
-    ?
+  ?
 Collaborator:
-    Pedro Henrique Pereira de Souza (predoff@gmail.com)
+  Pedro Henrique Pereira de Souza (predoff@gmail.com)
 Type:
-    Search
-Description:
-    Consists of checking every one of a list elements, one at a time and in sequence, 
-    until the desired one is found and return your position.
-Complexity:  
-    ?
+  Search
 Difficulty level:
-    Easy
+  Easy
 References: (optional)
-    http://en.wikipedia.org/wiki/Linear_search
-License: 
+  http://en.wikipedia.org/wiki/Linear_search
     
 =end
 

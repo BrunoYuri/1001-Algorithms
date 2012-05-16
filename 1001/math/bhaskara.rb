@@ -2,20 +2,15 @@
 
 Bhaskara
 Autor:
-    Bhaskara Akaria [1]
+  Bhaskara Akaria [1]
 Collaborator:
-    Pedro Henrique Pereira de Souza (predoff@gmail.com)
+  Pedro Henrique Pereira de Souza (predoff@gmail.com)
 Type:
-    Math
-Description:
-    (PT) Calcula as raízes de uma equação de segundo grau
-Complexity: 
-    O(1)
+  Math
 Difficulty level:
-    Easy
+  Easy
 References:
-    [1] http://pt.wikipedia.org/wiki/Bhaskara_Akaria
-License:
+  [1] http://pt.wikipedia.org/wiki/Bhaskara_Akaria
 	
 =end
 

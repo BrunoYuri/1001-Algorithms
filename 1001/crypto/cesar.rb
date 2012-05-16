@@ -1,22 +1,16 @@
 =begin
 
 Cesar Cipher
-Autohr:
-    César
+Author:
+   César
 Collaborator:
-    Pedro Henrique Pereira de Souza (predoff@gmail.com)
+   Pedro Henrique Pereira de Souza (predoff@gmail.com)
 Type:
-    Crypto
-Description:
-    (PT) Este algoritmo implementa a Cifra de César
-Complexity:  
-    ?
+   Crypto
 Difficulty level:
-    Easy
+   Easy
 References:
-    http://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar
-License:
-    
+   http://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar
     
 =end
 

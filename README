@@ -1,17 +1,9 @@
-The objective of this project is implement 1001 Ruby Algorithms.
+Algorithms
+==========
 
+Mission: Implement 1001 Ruby Algorithms.
+Site: http://predoff.github.com/Algorithms/
+Current Status: 10/1001
 
-Algorithms (10/1001)
-
-0001 Bhaskara (math/bhaskara.rb)
-0002 Bubble Sort (sort/bubblesort.rb)
-0003 Merge Sort (sort/mergesort.rb)
-0004 Quick Sort (sort/quicksort.rb)
-0005 Cesar Cipher (crypto/cesar.rb)
-0006 Temperature Conversion (misc/temperature.rb)
-0007 Vigenere Cipher (crypto/vigenere.rb)
-0008 Binary Search (search/binary_search.rb)
-0009 Linear Search (search/linear_search.rb)
-0010 Factorial (math/factorial.rb)
 
 Inspired in https://github.com/karlisson/1001
